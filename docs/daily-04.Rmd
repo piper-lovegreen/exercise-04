@@ -1,7 +1,7 @@
 ---
 title: "Geography 13 Actvity 4"
 subtitle: "Meet R, RMarkdown, & Github"
-author: Mike Johnson
+author: Piper Lovegreen
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
@@ -177,7 +177,7 @@ cities %>%
 ## In line code:
 
 ```{r, echo = FALSE}
-threshold = 1000000
+threshold = 100000
 big_cities = 
   filter(cities, population > threshold) %>%
   filter(!state_name %in% c("Alaska", "Hawaii", "Puerto Rico"))
@@ -194,7 +194,7 @@ big_cities %>%
   ggplot() + 
   aes(x = lng, y = lat) + 
   geom_point(aes(size = population, color = density)) + 
-  scale_color_gradient(low = "blue", high = "red") + 
+  scale_color_gradient(low = "steelblue3", high = "firebrick1") + 
   labs(title = "USA Cities Population Stats",
        subtitle = paste("Cities bigger then:", 
                         formatC(threshold, format="d", big.mark=","),
