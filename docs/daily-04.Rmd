@@ -89,9 +89,9 @@ I can make something **bold** with double asterisks, or *italicized* with single
 
 Make something superscripted^UP^ or subscripted~DOWN~
 
-I can add a regular hyperlink by just writing the URL: https://github.com/mikejohnson51/spds
+I can add a regular hyperlink by just writing the URL: https://github.com/piper-lovegreen/exercise-04.git
 
-Or I can have [linked text](https://github.com/mikejohnson51/spds).
+Or I can have [linked text](https://github.com/piper-lovegreen/exercise-04.git).
 
 I can add an image: 
 
